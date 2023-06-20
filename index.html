@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      border: 1px solid black;
+      flex-direction: column-reverse;
+      
+    }
+
+    .flex-item-1 {
+      width: 100px;
+      height: 100px;
+      /* background-color: red; */
+      margin: 10px;
+    }
+    .flex-item-2 {
+      width: 100px;
+      height: 100px;
+      /* background-color: red; */
+      margin: 10px;
+      order: 1;
+    }
+    .flex-item-3 {
+      width: 100px;
+      height: 100px;
+      /* background-color: red; */
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item-1" style="background-color: brown;"></div>
+    <div class="flex-item-2" style="background-color: yellowgreen"></div>
+    <div class="flex-item-3" style="background-color:blue"></div>
+  </div>
+</body>
+</html>
